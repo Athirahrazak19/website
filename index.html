@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<title>Tira.razak Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("\IMAGES IMD311\download.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT ME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">EXPERIENCE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#education" class="w3-button w3-block w3-black">EDUCATION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#gallery" class="w3-button w3-block w3-black">GALLERY</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">HI AND ASSALAMUALAIKUM, EVERYONE!<p>&#128153;</p></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black" style="font-size:80px">ATHIRAH<br>RAZAK</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-black">19 JUNE 1999</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-darkpinkscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CHAPTER 1: ABOUT ME</span></h5>
+    <p style="color: maroon">My name is Athirah Abd Razak. I am a student in UITM Machang, Kelantan as a information management student. My goal is to become a respected professional in one of the fields. Moreover, being a sociable person, I have many friends since I like to communicate with people and get to know new interesting individuals. I enjoy my time at uni: it is really nice to study, the students are very friendly and ready to help. 
+
+ As soon as I meet new people who are happy to meet me, I feel extremely comfortable with them. I believe that friendship is one of the most important values in human life. We exchange new ideas, find many interesting things about each other and experience new things. I appreciate friendship and people who surround me. </p>
+    <p style="color: maroon">In addition meeting new people who support all my efforts to grow and develop my skills not only in the subjects but also in my hobbies gives me a lot of energy. Many of those friends who surround me now I met on the street while doing my hobby. I’m in love with photography, so the thing I love doing so much became even more enjoyable. I decided to take beautiful pictures of accidental people and share these photos with them in social media.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"The goal I’m currently striving for is to make this world a better place to live in by starting the changes with myself. Sure, I’ve had bad experiences in my life too, but this is exactly what made me the way I am now: grateful, full of love, with a desire to study well because it will help me become a successful person in future and have a high quality of life. "</i></p>
+      <p>Talk the Talk, Walk the Walk: A.Danish</p>
+    </div>
+    <img src="\IMAGES IMD311\talk the talk.png" style="width:50%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Quote:</strong> Talk the Talk, Walk the Walk.</p>
+    <p><strong>By:</strong> A.Danish, 2020, MY</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CHAPTER 2: MY EXPERIENCE</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">EDUCATION</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">COUNTER SERVER</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Teacher Work Experience</h5>
+      <p class="w3-text-grey">Little Caliph, Tanjung Malim, Perak</p><br>
+    
+      <h5></h5>
+      <p class="w3-text-grey">As a teacher</p><br>
+    
+      <h5>Achievement</h5>
+      <p class="w3-text-grey">Promoted environment conducive to learning</p><br>
+    
+      <h5></h5>
+      <p class="w3-text-grey">Established reward system to manage behaviour</p><br>
+    
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Cashier</h5>
+      <p class="w3-text-grey">At supermarket Tanjung Malim, Perak</p><br>
+    
+      <h5></h5>
+      <p class="w3-text-grey">For fulltime</p><br>
+    
+      <h5>Achievement</h5>
+      <p class="w3-text-grey">Accurately processed customer transaction </p><br>
+    
+      <h5></h5>
+      <p class="w3-text-grey">Maintained cash drawer</p><br>
+    
+    </div>  
+    <img src="\IMAGES IMD311\work hard.png" style="width:50%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CHAPTER 3: CONTACT ME</span></h5>
+    <p>Find me at some address at some place.</p>
+    <img src="\IMAGES IMD311\Touch.png" class="w3-image" style="width:50%">
+    <p><span class="w3-tag">FYI!</span> I offer full-service for any motivation or good word for release your stress and so on.</p>
+    <p><strong>Reserve</strong> a date, just send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Date of birth" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-07-27T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- About Education  -->
+
+<div class="w3-container" id="education">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CHAPTER 4: EDUCATION</span></h5>
+    <p style="color: green "> PRIMARY: Studies at Sk Tanjong Malim Perak,from grade 2 until 6
+     </p>
+    <p style="color: purple"> SECONDARY: Studies at SMK Khir Johari Tanjung Malim Perak.</p>
+    <p style="color: maroon">FIRST UNIVERSITY: Studies at University Sultan Azlan Shah in Islamic Studies. </p>
+    <p style="color: maroon">SECOND UNIVERSITY: Studies at UITM Machang in Information Management</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"No matter how busy you may think you are, you must find time for reading, or surrender yourself to self-chosen ignorance "</i></p>
+      <p>Talk the Talk, Walk the Walk: A.Danish</p>
+
+</div>
+</div>      
+
+
+<!-- Gallery -->
+
+  <div class="w3-row-container" id="gallery">
+     <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CHAPTER 5: MY GALLERY</span></h5>
+
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.45.07 AM (3).jpeg" alt="Myself" style="width:40%">
+<h3><b>I'm working on Myself, for Myself, by Myself</b></h3>
+<p style="color:maroon">If you want to make something for yourself, work harder than everybody else.<p>&#128112;</p></p>
+</div>
+
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.56.31 AM (3).jpeg" alt="MyFamily" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.56.31 AM (4).jpeg" alt="MyFamily" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.56.31 AM (6).jpeg" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.56.31 AM (1).jpeg" style="width:20%">
+<h3><b>A Family doesn't have to be Perfect; it just needs to be united</b></h3>
+<p style="color:maroon">Family a little bit of crazy, a little bit of loud, a whole lot of Love!<p>&#128106;</p></p>
+</div>
+
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.57.54 AM.jpeg" alt="MyFriend" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.57.55 AM.jpeg" alt="MyFriend" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.57.55 AM (2).jpeg" alt="MyFriend" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.57.54 AM (1).jpeg" alt="MyFriend" style="width:20%">
+<h3><b>True friends are Never Apart, maybe in distance but never in Heart</b></h3>
+<p style="color:maroon">Our friendship isn't a big thing, it's a million little things.<p>&#128109;</p></p>
+</div>
+
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.45.07 AM.jpeg" alt="MyEducation" style="width:20%">
+<img src="\IMAGES IMD311\WhatsApp Image 2021-01-14 at 11.45.08 AM.jpeg" alt="MyEducation" style="width:20%">
+<h3><b>Study because knowledge is POWER!</b></h3>
+<p style="color:maroon">Study because it enhances you & grows you.<p>&#127970;</p></p>
+  
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+ </footer>
+
+  <p>TiraNish &trade;<p>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
